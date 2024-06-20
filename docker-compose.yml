@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  app:
+    image: girumabate/animal_adoption:1.0.1
+    container_name: spring_app
+    ports:
+      - "8089:8089"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/animalAdoption
+      SPRING_DATASOURCE_USERNAME: adminUser
+      SPRING_DATASOURCE_PASSWORD: root
+    depends_on:
+      - db
+#  backend-api:
+#    build: .
+#    ports:
+#      - "8089:8089"
+#    depends_on:
+#      - db
+#    networks:
+#      - backend-network
+
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: animalAdoption
+      MYSQL_USER: adminUser
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - backend-network
+
+networks:
+  backend-network:
+
+volumes:
+  mysql-data:
