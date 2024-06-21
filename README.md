@@ -10,6 +10,39 @@ To adopt a pet through this platform, users would follow a straightforward appli
 After applying, the platform would facilitate communication between the adopter and the shelter or rescue organization. This might include a virtual or in-person interview, a home visit, and a review of the adopter's application by the organization. If approved, the adopter would receive guidance on the next steps, including any necessary paperwork, adoption fees, and scheduling the pick-up or delivery of the pet.
 
 
+
+Functional Requirements for Pet Adoption Platform
+
+
+Administrators
+
+Manage users, including adding and removing adopters and shelter staff.
+Oversee shelter profiles and verify listed pets.
+Manage the overall functionality and integrity of the platform.
+Shelter/Rescue Organization Staff
+
+List pets available for adoption.
+Manage pet profiles, including updating photos, descriptions, and medical histories.
+Process adoption applications and manage appointments with potential adopters.
+Adopters
+
+Create and manage user profiles.
+Search for pets using various filters.
+Submit adoption applications and schedule appointments with shelters.
+Pet Profiles and Management
+
+Provide a centralized platform for listing and managing pet profiles.
+Include detailed profiles for each pet, with photos, descriptions, medical histories, and behavioral assessments.
+Allow shelters to update pet profiles as necessary.
+Adoption Process and Workflow
+
+Standardize the adoption application process with digital forms and documentation.
+Enable shelters to review applications, and track the status of each application.
+Facilitate communication between shelters and adopters throughout the process.
+Ensure all necessary steps and paperwork are completed before finalizing an adoption.
+
+
+
 Requirement Analysis 
 
 - The system should register shelters with their basic information
