@@ -19,8 +19,13 @@ Requirement Analysis
 - The system should allow muliple adoption application submission for a single pet
 - The system should only allow one pet to be adopted by a single applicant
 
+ER Diagram
 
 ![screenshots](<ER-diag.png>)
+
+
+Architecture
+
 ![screenshots](<arch.png>)
 
 
