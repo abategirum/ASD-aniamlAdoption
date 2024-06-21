@@ -20,4 +20,8 @@ Requirement Analysis
 - The system should only allow one pet to be adopted by a single applicant
 
 
+![screenshots](<screenshots/ER-diag.png>)
+![screenshots](<screenshots/arch.png>)
+
+
 
